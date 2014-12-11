@@ -1,0 +1,19 @@
+package server;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Timer;
+
+public class Ssa {
+	ServerSocket ss;
+	Socket st;
+	public static void main(String[] args) {
+
+		class xyz extends Thread {
+			public void run() {
+				Thread th = new Thread();
+				th.start();
+			}
+		}
+	}
+}

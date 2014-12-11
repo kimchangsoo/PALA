@@ -1,0 +1,15 @@
+package server;
+
+import java.io.DataOutputStream;
+import java.net.Socket;
+
+public class aa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Socket st;
+			st = new Socket(200.1.4.195,61111);
+			DataOutputStream dos = new DataOutputStream
+
+	}
+}

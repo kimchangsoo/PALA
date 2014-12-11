@@ -1,0 +1,17 @@
+package server;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Ssa {
+	ServerSocket ss;
+	Socket st;
+	public static void main(String[] args) {
+
+		class xyz extends Thread {
+			public void run() {
+start();
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package server;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class Ssa {
+	ServerSocket ss;
+
+	public static void main(String[] args) {
+		Thread xyz = new xyz();
+		xyz.start();
+
+	}
+}
+
+class xyz extends Thread {
+	public void run() {
+		try{		
+		} catch (IOException e) {
+			
+		}
+		System.out.println("cycle");
+		
+	}
+}

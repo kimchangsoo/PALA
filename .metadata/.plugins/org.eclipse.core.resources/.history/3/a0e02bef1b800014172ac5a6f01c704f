@@ -1,0 +1,26 @@
+package server;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class Ssa {
+	ServerSocket ss;
+
+	public static void main(String[] args) {
+		Thread xyz = new xyz();
+		xyz.start();
+
+	}
+}
+
+class xyz extends Thread {
+	public void run() {
+		while(true){
+		try {
+			ServerSocket ss = new ServerSocket(6666);
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}}
+	}
+}

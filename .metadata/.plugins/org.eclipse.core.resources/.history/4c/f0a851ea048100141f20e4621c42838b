@@ -1,0 +1,22 @@
+package server;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+
+public class aa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			try{
+			Socket st = new Socket("200.1.4.197",4000);
+			DataOutputStream dos = new DataOutputStream(st.getOutputStream());
+			dos.writeUTF("null");
+			DataInputStream dis = new DataInputStream(st.getInputStream());
+			System.out.println(dis.readUTF());
+			st.close();
+			} catch (IOException e1) {
+		}
+	}
+}
